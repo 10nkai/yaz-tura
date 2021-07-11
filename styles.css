@@ -1,0 +1,12 @@
+p{
+    text-align: center;
+    color: grey;
+    font-family: Arial;
+    font-size: 300px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%
+}

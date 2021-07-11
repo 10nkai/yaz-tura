@@ -4,11 +4,11 @@ let output = "none";
 switch(coin){
     case 1:
         output = "Yazı";
-        code = "photo/yazı.png"
+        code = "yazı.png"
         break;
     case 0:
         output = "Tura";
-        code = "photo/tura.png"
+        code = "tura.png"
         break;
     default:
         output = "WHAT!?";

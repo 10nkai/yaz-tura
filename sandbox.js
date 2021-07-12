@@ -15,6 +15,12 @@ var code = `${output.toLowerCase()}.png`;
 
 const what = document.querySelector('img');
 const para = document.querySelector('p');
+const button = document.querySelector('button');
+
+button.addEventListener('click', () =>{
+  window.location.reload(false);
+});
+
 para.innerText = output;
 what.setAttribute('src', code);
 

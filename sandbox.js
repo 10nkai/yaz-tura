@@ -11,7 +11,7 @@ switch(coin){
     default:
         break;
 }
-var code = `${toLowerCase(output)}.png`;
+var code = `${output.toLowerCase()}.png`;
 
 const what = document.querySelector('img');
 const para = document.querySelector('p');

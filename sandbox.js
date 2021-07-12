@@ -1,6 +1,6 @@
 let coin = Math.round(Math.random());
 let output = "none";
-    
+
 switch(coin){
     case 1:
         output = "Yazı";
@@ -14,9 +14,10 @@ switch(coin){
         output = "WHAT!?";
         break;
 }
-    
+
 const what = document.querySelector('img');
-what.outerHTML = `<img src="${code}">` 
+const para = document.querySelector('p');
+para.innerText = output
+what.outerHTML = `<img src="${code}">`
 console.log(what);
 console.log(output);
-
